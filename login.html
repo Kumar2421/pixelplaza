@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body class="bg-white">
+    <!-- JS --> 
+    <script src="./script.js"></script>
+
+    <div class="container  min-h-scree mx-auto  flex items-center justify-center  min-h-screen">
+        <div class="w-full max-w-7xl flex rounded-lg shadow-lg bg-white bg-opacity-25">
+            <!-- Image column -->
+            <div class="hidden md:block w-4/5 ">
+                <img src="WhatsApp Image 2024-07-18 at 14.27.26_827b0025.jpg" alt="QR Code" class="rounded-l-lg object-cover h-full w-full">
+            </div>
+
+            <!-- Form column -->
+            <div class="w-full md:w-2/5    p-8 bg-white shadow rounded-r-lg">
+                <form action="#" class="form active" id="login">
+                    <div class="flex justify-center mb-6 ">
+                        <img src="WhatsApp Image 2024-07-18 at 14.52.23_d0e3733f.jpg" alt="logo" class="h-16 object-fill w-full ">
+                    </div>
+                    <h2 class="text-2xl font-bold mb-4 text-center">Login</h2>
+                    <label for="email" class="block mb-2">Email Address</label>
+                    <div class="mb-4">
+                        <input type="email" name="email" id="emailInput" class="w-full p-2 border rounded" placeholder="name@mail.com">
+                    </div>
+                    <label for="password" class="block mb-2">Password</label>
+                    <div class="mb-4 relative">
+                        <input type="password" name="password" id="password" class="w-full p-2 border rounded" placeholder="**********">
+                        <a href="#" class="absolute right-0 top-2 text-sm text-blue-500">Reset Password</a>
+                    </div>
+                    <div class="mb-4 flex items-center">
+                        <input type="checkbox" name="remember" id="remember" class="mr-2">
+                        <label for="remember" class="text-sm">Remember Password</label>
+                    </div>
+                    <button class="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-700">Login</button>
+                    <p class="mt-4">Don't have an account? <a id="changeToRegister" class="text-blue-500 cursor-pointer">Sign up</a></p>
+                </form>
+
+                <form action="#" class="form hidden" id="register">
+                    <div class="flex justify-center mb-2 ">
+                        <img src="WhatsApp Image 2024-07-18 at 14.52.23_d0e3733f.jpg" alt="logo" class="h-16 object-fill w-full ">
+                    </div>
+                    <h2 class="text-2xl font-bold mb-4 text-center">Register</h2>
+                    <label for="email" class="block mb-2">Email Address</label>
+                    <div class="mb-2">
+                        <input type="email" name="email" id="emailInput" class="w-full p-2 border rounded" placeholder="name@mail.com">
+                    </div>
+                    <label for="password" class="block mb-2">Password</label>
+                    <div class="mb-2">
+                        <input type="password" name="password" id="password" class="w-full p-2 border rounded" placeholder="**********">
+                    </div>
+                    <label for="re-password" class="block mb-2">Re-Password</label>
+                    <div class="mb-2">
+                        <input type="password" name="re-password" id="re-password" class="w-full p-2 border rounded" placeholder="**********">
+                    </div>
+                    <button class="w-full p-2 bg-blue-500 text-white rounded hover:bg-blue-700">Register</button>
+                    <p class="mt-4">Do you have an account? <a id="changeToLogin" class="text-blue-500 cursor-pointer">Sign in</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

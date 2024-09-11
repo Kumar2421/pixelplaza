@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Freepik Clone | For edu. purpose</title>
+        <!-- -------- font awsome cdn file -------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <!-- -------- Boostrap css cdn file -------- -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- -------- Css file linked-------- -->
+        <link rel="icon" href="imgs/favicon.png">
+    </head>
+<body>
+    <!-- ========= NAV BAR === NAV BAR === NAV BAR ========= -->
+     <div class="bg" style="background-image: url('imgs/backgrounds.png'); background-size: cover;">
+        <nav class="navbar navbar-dark navbar-expand-xl px-4 bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/freepik-logo-white.png" alt="Freepik" width="124" height="34">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-btns-hide">
+                <span class="navbar-text me-3">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Log in</a>
+                </span>
+                <span class="navbar-text ms-2">
+                    <button type="button" class="btn btn-outline-light">Sign up</button>
+                </span>
+            </div>
+            <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img src="imgs/freepik-logo-white.png" alt="Freepik" width="124" height="34">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav-left-items navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white fs-6" aria-current="page" href="#">Vectors</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">PSD</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">3D<span
+                                    class="badge bg-light text-primary ms-1">New</span></a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Fonts</a>
+                        </li>
+                        <li class="nav-item ms-2 dropdown">
+                            <a class="nav-link text-white dropdown-toggle" aria-current="page" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+                            <ul class="dropdown-menu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Backgrounds</a></li>
+                                <li><a class="dropdown-item" href="#">Illustrations</a></li>
+                                <li><a class="dropdown-item" href="#">Cartoons</a></li>
+                                <li><a class="dropdown-item" href="#">Business Cards</a></li>
+                                <li><a class="dropdown-item" href="#">Flyers</a></li>
+                                <li><a class="dropdown-item" href="#">Mockups</a></li>
+                                <li><a class="dropdown-item" href="#">Texture</a></li>
+                                <li><a class="dropdown-item" href="#">Drawings</a></li>
+                                <li><a class="dropdown-item" href="#">Icons</a></li>
+                                <li><a class="dropdown-item" href="#">Greeting cards</a></li>
+                                <li><a class="dropdown-item" href="#">Posters</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Collections</a>
+                        </li>
+                        <li class="nav-item ms-2 dropdown">
+                            <a class="nav-link text-white dropdown-toggle" aria-current="page" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Projects</a></li>
+                                <li><a class="dropdown-item" href="#">Pro Solutions</a></li>
+                                <li><a class="dropdown-item" href="#">Tools</a></li>
+                                <li><a class="dropdown-item" href="#">Apps and plugins</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <span class="navbar-text ms-2">
+                            <a class="nav- active text-white" aria-current="page" href="#">Sell Content</a>
+                        </span>
+                        <span class="navbar-text ms-2">
+                            <a class="nav-link active text-warning" aria-current="page" href="#">Pricing</a>
+                        </span>
+                        <span class="navbar-text ms-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Log in</a>
+                        </span>
+                        <span class="navbar-text ms-2">
+                            <button type="button" class="btn btn-outline-light">Sign up</button>
+                        </span>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========= HEADER SECTION === HEADER SECTION === HEADER SECTION ========= -->
+
+    <div class="Header-section bg-transparent" >
+        <div class="container-fluid">
+            <img class="Header-section-logo mb-3 mt-2" src="imgs/freepik-logo-white.png" alt="Freepik" width="154"
+            height="41">
+        <h1 class="pt-lg-2 pb-2 Header-section-h3">All the assets you need, in one place</h1>
+        <p class="Header-section-p">Find and download the best high-quality photos, designs, and mockups</p>
+        <div class="input-group header-sec-search-div">
+            <button class="btn btn-light Header-section-search-left-of-box" aria-expanded="false"><i
+                    class="bi bi-search"></i></button>
+            <button class="btn btn-light dropdown-toggle Header-section-hide-below-795" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"><a href=""
+                    class="pe-sm-2 pe-lg-5 a-link">Assets</a></button>
+            <ul class="dropdown-menu Header-section-hide-below-795">
+                <li><a class="dropdown-item" href="#">Action before</a></li>
+                <li><a class="dropdown-item" href="#">Another action before</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control bg-light border-0 ps-3"
+                aria-label="Text input with 2 dropdown buttons" placeholder="Search all resources">
+            <button class="btn btn-light Header-section-hide-below-795" aria-expanded="false"><i
+                    class="bi bi-search"></i></button>
+        </div>
+        <div class="mt-3">
+            <button class="Header-section-blue-btn">
+                <i class="bi bi-search"></i>
+                Invitation
+            </button>
+            <button class="Header-section-blue-btn">
+                <i class="bi bi-search"></i>
+                Background
+            </button>
+            <button class="Header-section-blue-btn">
+                <i class="bi bi-search"></i>
+                Certificate
+            </button>
+        </div>
+
+        </div>
+        
+        <div  class="header-circle-section">
+            <div class="Header-section-circle-img-container">
+                <div class="Header-section-circle-img-div me-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/vectors.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Vectors</button>
+                </div>
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/illustrations.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Illustrations</button>
+                </div>
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/mockups.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Mockups</button>
+                </div>
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/templates.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Templates</button>
+                </div>
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/photos.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Photos</button>
+                </div>
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/fonts.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Fonts</button>
+                </div>
+                
+                <div class="Header-section-circle-img-div mx-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/text-effects.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Text Effects</button>
+                </div>
+                <div class="Header-section-circle-img-div ms-2">
+                    <img class="rounded-circle circle-img-animation" src="imgs/backgrounds.png" alt="">
+                    <button class="trasparent-btn  text-weight-500">Backgrounds</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!-- ========= Explore Trending === Explore Trending === Explore Trending ========= -->
+
+    <div class="explore-trendings container-fluid">
+        <strong><span class="text-primary text-freepik-dark">Explore </span><span
+                class="text-freepik-dark text-freepik-dark">trending categories
+                on Freepik</span></strong>
+        <p class="pt-3 text-secondary text-freepik-secondary">Check what’s popular on Freepik and make your project look
+            trendy and
+            professional.</p>
+    </div>
+    <div class="hide-screen-width-blw-1000 container-fluid px-5 pb-5 img-grid-light-bg">
+        <div class="row mx-5">
+            <div class="col parent-for-btm-left-text">
+                <img src="imgs/christmas-background.png" alt="Snow" style="width:100%;">
+                <div class="bottom-left-text-in-img">Christmas Background</div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col parent-for-btm-left-text">
+                        <img src="imgs/selfies.png" alt="Snow" style="width:100%;">
+                        <div class="bottom-left-text-in-img">Selfies</div>
+                    </div>
+                    <div class="col parent-for-btm-left-text">
+                        <img src="imgs/football.png" alt="Snow" style="width:100%;">
+                        <div class="bottom-left-text-in-img">Football</div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col parent-for-btm-left-text">
+                        <img src="imgs/nomad-family.png" alt="Snow" style="width:100%;">
+                        <div class="bottom-left-text-in-img">Nomad Family</div>
+                    </div>
+                    <div class="col parent-for-btm-left-text">
+                        <img src="imgs/home-sweet-home.png" alt="Snow" style="width:100%;">
+                        <div class="bottom-left-text-in-img">Home Sweet Home</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3 mx-5">
+            <div class="col parent-for-btm-left-text">
+                <img src="imgs/world-cup.png" alt="Snow" style="width:100%;">
+                <div class="bottom-left-text-in-img">World cup 2022</div>
+            </div>
+            <div class="col parent-for-btm-left-text">
+                <img src="imgs/winter-background.png" alt="Snow" style="width:100%;">
+                <div class="bottom-left-text-in-img">Winter Background</div>
+            </div>
+            <div class="col parent-for-btm-left-text">
+                <img src="imgs/xmas.png" alt="Snow" style="width:100%;">
+                <div class="bottom-left-text-in-img">Christmas 2022</div>
+            </div>
+            <div class="col parent-for-btm-left-text">
+                <img src="imgs/ui-mockups.png" alt="Snow" style="width:100%;">
+                <div class="bottom-left-text-in-img">UI Mockups</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid img-grid-light-bg">
+        <div class="img-grid-light-bg  overflow-scroll-preset">
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/christmas-background.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Christmas Background</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/selfies.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Selfies</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/football.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Football</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/nomad-family.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Nomad-family</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/home-sweet-home.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Home Sweet Home</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/world-cup.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">World Cup 2022</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/winter-background.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Winter Background</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/xmas.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Christmas 2022</div>
+            </div>
+            <div class="parent-for-btm-left-text hide-screen-width-abv-1000 mx-2">
+                <img class="rounded-4" src="imgs/ui-mockups.png" alt="Snow" style="width: 200px;">
+                <div class="bottom-left-text-in-img">Ui Mockups</div>
+            </div>
+        </div>
+    </div>
+    <!-- ========= UNLOCK YOUR INNER CREATOR === UNLOCK YOUR INNER CREATOR === UNLOCK YOUR INNER CREATOR ========= -->
+    
+    <div class="container-fluid p-5">
+        <strong>
+            <p class="text-freepik-dark">Unlock your inner creator</p>
+        </strong>
+        <div class="d-flex justify-content-between">
+            <p class="text-secondary text-freepik-secondary">Get the inspiration you need with these collections
+                carefully selected to boost your project’s engagement.</p>
+            <a class="text-primary a-link hide-blw-1250-preset" href="#"><strong>Explore →</strong></a>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="pb-5 overflow-scroll-preset Unlock-your-inner-creator d-flex ">
+            <div class="parent-for-btm-left-text mx-3 ">
+                <img class="rounded-4 Unlock-your-inner-creator-img" src="imgs/breakfast.png" alt="Snow">
+                <div class="bottom-center-text-in-img">Breakfast</div>
+            </div>
+            <div class="parent-for-btm-left-text mx-3">
+                <img class="rounded-4 Unlock-your-inner-creator-img" src="imgs/cat-love.png" alt="Snow">
+                <div class="bottom-center-text-in-img">Loves cat</div>
+            </div>
+            <div class="parent-for-btm-left-text mx-3">
+                <img class="rounded-4 Unlock-your-inner-creator-img" src="imgs/christmas-gift.png" alt="Snow">
+                <div class="bottom-center-text-in-img">Christmas gift</div>
+            </div>
+            <div class="parent-for-btm-left-text mx-3">
+                <img class="rounded-4 Unlock-your-inner-creator-img" src="imgs/freepik-by-.png" alt="Snow">
+                <div class="bottom-center-text-in-img">Photography</div>
+            </div>
+            <div class="parent-for-btm-left-text mx-3 explore-box hide-abv-1250-preset">
+                <a class="text-primary a-link hide-abv-1250-preset explore-box-text" href="#"><strong>Explore
+                        →</strong></a>
+            </div>
+        </div>
+    </div>
+
+        <!-- ========= SMART CHOICE === SMART CHOICE === SMART CHOICE ========= -->
+        
+        <div  class="explore-trendings container-fluid  pt-5">
+            <strong><span class="text-freepik-dark text-freepik-dark">The smartest choice for </span><span
+                    class="text-primary text-freepik-dark">creatives like you</span></strong>
+            <p class="pt-3 text-secondary text-freepik-secondary">Whether you’re looking for designs or photographs, you’ll
+                find the perfect asset on Freepik.</p>
+        </div>
+        <div class="container-fluid img-grid-light-bg ">
+            <div class="row smart-choice">
+                <div class="col-1 hide-blw-1250-preset"></div>
+                <div  class="col-6 hide-blw-1250-preset">
+                    <div class="col-12 d-flex pb-4 mt-5">
+                        <div class="col-2 The-smartest-choice-icon-box">
+                            <i class="fa fa-star"></i>                    
+                        </div>
+                        <div class="col-8 ps-3">
+                            <Span class="The-smartest-choice-content-head">High-quality stock content</Span> <br>
+                            <span class="text-secondary">Download scroll-stopping imgs of the best quality to make your
+                                projects look professional.</span>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex pb-4">
+                        <div class="col-2 The-smartest-choice-icon-box">
+                            <i class="fa fa-diamond"></i>                        
+                        </div>
+                        <div class="col-8 ps-3">
+                            <Span class="The-smartest-choice-content-head">Ready-to-use assets</Span> <br>
+                            <span class="text-secondary">Access thousands of imgs and designs ready-to-publish and get
+                                your project ready double quick.</span>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex pb-4">
+                        <div class="col-2 The-smartest-choice-icon-box">
+                            <i class="fa fa-check"></i>                        
+                        </div>
+                        <div class="col-8 ps-3">
+                            <Span class="The-smartest-choice-content-head">Guaranteed search results</Span> <br>
+                            <span class="text-secondary">There’s an image and style for every project, whatever your needs
+                                are.</span>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex pb-4">
+                        <div class="col-2 The-smartest-choice-icon-box">
+                            <i class="fa fa-th-list"></i>                        
+                        </div>
+                        <div class="col-8 ps-3">
+                            <Span class="The-smartest-choice-content-head">Fresh content everyday</Span> <br>
+                            <span class="text-secondary">Our library is updated on a daily basis so you can find the newest
+                                and trendiest photos and designs.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 hide-blw-1250-preset">
+                    <img src="imgs/creative-like-you.webp" alt="" style="width: 500px">
+                </div>
+                <div class="col-1 hide-blw-1250-preset"></div>
+    
+                <div class="col-10 hide-abv-1250-preset">
+                    <div class="row mt-5">
+                        <div class="col-sm-6 col-12 d-flex pb-4">
+                            <div class="col-2 The-smartest-choice-icon-box">
+                                <i class="fa fa-th-list"></i>                        
+                            </div>
+                            <div class=" ps-3">
+                                <Span class="The-smartest-choice-content-head">High-quality stock content</Span> <br>
+                                <span class="text-secondary">Download scroll-stopping imgs of the best quality to make
+                                    your
+                                    projects look professional.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 d-flex pb-4">
+                            <div class="col-2 The-smartest-choice-icon-box">
+                                <i class="fa fa-star"></i>                    
+                            </div>
+                            <div class="ps-3">
+                                <Span class="The-smartest-choice-content-head">Ready-to-use assets</Span> <br>
+                                <span class="text-secondary">Access thousands of imgs and designs ready-to-publish and get
+                                    your project ready double quick.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-12 d-flex pb-4">
+                            <div class="col-2 The-smartest-choice-icon-box">
+                                <i class="fa fa-diamond"></i>                        
+                            </div>
+                            <div class="ps-3">
+                                <Span class="The-smartest-choice-content-head">Guaranteed search results</Span> <br>
+                                <span class="text-secondary">There’s an image and style for every project, whatever your
+                                    needs
+                                    are.</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-12 d-flex pb-4">
+                            <div class="col-2 The-smartest-choice-icon-box">
+                                <i class="fa fa-check"></i>                        
+                            </div>
+                            <div class="ps-3">
+                                <Span class="The-smartest-choice-content-head">Fresh content everyday</Span> <br>
+                                <span class="text-secondary">Our library is updated on a daily basis so you can find the
+                                    newest
+                                    and trendiest photos and designs.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========= FOOTER SECTION === FOOTER SECTION === FOOTER SECTION ========= -->
+
+        <footer class="container-fluid footer-bg">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <ul class="footer-list">
+                        <h6>CONTENT</h6>
+                        <li>Calender and festivals</li>
+                        <li>New Assets</li>
+                        <li>The most popular content</li>
+                        <li>Search trends</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <ul class="footer-list">
+                        <h6>INFORMATION</h6>
+                        <li>Pricing</li>
+                        <li>About us</li>
+                        <li>Business</li>
+                        <li>Jobs</li>
+                        <li>Sell your content</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <ul class="footer-list">
+                        <h6>LEGAL</h6>
+                        <li>Terms and conditions</li>
+                        <li>License agreement</li>
+                        <li>Privacy policy</li>
+                        <li>Copyright information</li>
+                        <li>Cookies policy</li>
+                        <li>Cookies Settings</li>
+                    </ul>
+                    <ul class="footer-list">
+                        <h6>SUPPORT</h6>
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 main-footer">
+                    <ul class="footer-list">
+                        <h6>SOCIAL MEDIA</h6>
+                        <div class="d-flex mb-3">
+                            <div class="me-3 social-media-icon fb">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="me-3 social-media-icon twitter">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="me-3 social-media-icon pin">
+                                <i class="fa fa-pinterest"></i>                            
+                            </div>
+                            <div class="me-3 social-media-icon insta">
+                                <i class="fa fa-instagram"></i>                            
+                            </div>
+                            <div class="me-3 social-media-icon ytube">
+                                <i class="fa fa-youtube"></i>                            
+                            </div>
+                        </div>
+                        <span class="text-secondary fw-bold font-size-13">Get exclusive assets sent straight to your
+                            inbox</span> <br>
+                        <button class="btn btn-primary fw-bold px-4 mt-4">Sign up</button>
+                    </ul>
+                </div>
+                <div>
+                    <hr  class="color-light-grey-line">
+                </div>
+                <div class="second-last-footer">
+                    <div class="img-div">
+                        <img src="imgs/freepik-logo-white.png" alt="">
+                        <span class="footer-text">Copyright ©  2010-2024 Freepik Company S.L. All rights reserved</span>
+                    </div>
+                    <div class="signature-div">
+                        <button type="button" class="btn btn-outline-light px-5 py-2">English</button>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <h6 class=" footer-text">Freepik clone made by AJMAL FARIS for Edu purpose</h6>
+                    <div class="footer-span">
+                        <span>Freepik</span>
+                        <span>Flaticon</span>
+                        <span>Slidesgo</span>
+                        <span>Wepik</span>
+                        <span>Videvo</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+<!-- ----------------- Boostrap Js file------------- -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
