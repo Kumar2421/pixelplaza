@@ -12,34 +12,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <!-- -------- Css file linked-------- -->
-        <link rel="icon" href="imgs/favicon.png">
     </head>
 <body>
     <!-- ========= NAV BAR === NAV BAR === NAV BAR ========= -->
-     <div class="bg" style="background-image: url('imgs/backgrounds.png'); background-size: cover;">
+     <div class="" style="background-image: url('imgs/2151823119.jpg'); background-size: cover;">
         <nav class="navbar navbar-dark navbar-expand-xl px-4 bg-transparent">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="imgs/freepik-logo-white.png" alt="Freepik" width="124" height="34">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="nav-btns-hide">
-                <span class="navbar-text me-3">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Log in</a>
-                </span>
-                <span class="navbar-text ms-2">
-                    <button type="button" class="btn btn-outline-light">Sign up</button>
-                </span>
-            </div>
+            
+        
             <div class="offcanvas offcanvas-start text-bg-primary" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <img src="imgs/freepik-logo-white.png" alt="Freepik" width="124" height="34">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
                 <div class="offcanvas-body">
                     <ul class="nav-left-items navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item ms-2">
@@ -61,18 +46,15 @@
                         <li class="nav-item ms-2 dropdown">
                             <a class="nav-link text-white dropdown-toggle" aria-current="page" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
-                            <ul class="dropdown-menu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Backgrounds</a></li>
-                                <li><a class="dropdown-item" href="#">Illustrations</a></li>
-                                <li><a class="dropdown-item" href="#">Cartoons</a></li>
-                                <li><a class="dropdown-item" href="#">Business Cards</a></li>
-                                <li><a class="dropdown-item" href="#">Flyers</a></li>
-                                <li><a class="dropdown-item" href="#">Mockups</a></li>
-                                <li><a class="dropdown-item" href="#">Texture</a></li>
-                                <li><a class="dropdown-item" href="#">Drawings</a></li>
-                                <li><a class="dropdown-item" href="#">Icons</a></li>
-                                <li><a class="dropdown-item" href="#">Greeting cards</a></li>
-                                <li><a class="dropdown-item" href="#">Posters</a></li>
+                            <ul class="dropdown-menu dropdown-menu bg-dark ">
+                                <li class="text-hover-secondary"><a class="dropdown-item text-white" href="#">Backgrounds</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Illustrations</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Cartoons</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Business Cards</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Flyers</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Mockups</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Texture</a></li>
+                                <li class="bg-hover-secondary"><a class="dropdown-item text-white" href="#">Drawings</a></li>
                             </ul>
                         </li>
                         <li class="nav-item ms-2">
@@ -97,10 +79,10 @@
                             <a class="nav-link active text-warning" aria-current="page" href="#">Pricing</a>
                         </span>
                         <span class="navbar-text ms-2">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Log in</a>
+                            <a type="button" class="btn btn-outline-light" aria-current="page" href="logout.php">Log out</a>
                         </span>
                         <span class="navbar-text ms-2">
-                            <button type="button" class="btn btn-outline-light">Sign up</button>
+                            <a type="button" class="btn btn-outline-light" aria-current="page" href="login.html">Sign up</a>
                         </span>
                     </ul>
                 </div>
@@ -112,84 +94,23 @@
 
     <div class="Header-section bg-transparent" >
         <div class="container-fluid">
-            <img class="Header-section-logo mb-3 mt-2" src="imgs/freepik-logo-white.png" alt="Freepik" width="154"
-            height="41">
-        <h1 class="pt-lg-2 pb-2 Header-section-h3">All the assets you need, in one place</h1>
-        <p class="Header-section-p">Find and download the best high-quality photos, designs, and mockups</p>
-        <div class="input-group header-sec-search-div">
-            <button class="btn btn-light Header-section-search-left-of-box" aria-expanded="false"><i
-                    class="bi bi-search"></i></button>
-            <button class="btn btn-light dropdown-toggle Header-section-hide-below-795" type="button"
-                data-bs-toggle="dropdown" aria-expanded="false"><a href=""
-                    class="pe-sm-2 pe-lg-5 a-link">Assets</a></button>
-            <ul class="dropdown-menu Header-section-hide-below-795">
-                <li><a class="dropdown-item" href="#">Action before</a></li>
-                <li><a class="dropdown-item" href="#">Another action before</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
-            <input type="text" class="form-control bg-light border-0 ps-3"
-                aria-label="Text input with 2 dropdown buttons" placeholder="Search all resources">
-            <button class="btn btn-light Header-section-hide-below-795" aria-expanded="false"><i
-                    class="bi bi-search"></i></button>
-        </div>
-        <div class="mt-3">
-            <button class="Header-section-blue-btn">
-                <i class="bi bi-search"></i>
-                Invitation
-            </button>
-            <button class="Header-section-blue-btn">
-                <i class="bi bi-search"></i>
-                Background
-            </button>
-            <button class="Header-section-blue-btn">
-                <i class="bi bi-search"></i>
-                Certificate
-            </button>
-        </div>
+            <h1 class="pt-lg-2 pb-2 Header-section-h3">All the assets you need, in one place</h1>
+            <p class="Header-section-p">Find and download the best high-quality photos, designs, and mockups</p>
+            <div class="input-group header-sec-search-div">
+                <button class="btn btn-light Header-section-search-left-of-box" aria-expanded="false"><i
+                        class="bi bi-search"></i></button>
+                <button class="btn btn-light dropdown-toggle Header-section-hide-below-795" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false"><a href=""
+                        class="pe-sm-2 pe-lg-5 a-link">Assets</a></button>
+                
+                <input type="text" class="form-control bg-light border-0 ps-3"
+                    aria-label="Text input with 2 dropdown buttons" placeholder="Search all resources">
+                <button class="btn btn-light Header-section-hide-below-795" aria-expanded="false"><i
+                        class="bi bi-search"></i></button>
+            </div>
 
         </div>
         
-        <div  class="header-circle-section">
-            <div class="Header-section-circle-img-container">
-                <div class="Header-section-circle-img-div me-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/vectors.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Vectors</button>
-                </div>
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/illustrations.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Illustrations</button>
-                </div>
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/mockups.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Mockups</button>
-                </div>
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/templates.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Templates</button>
-                </div>
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/photos.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Photos</button>
-                </div>
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/fonts.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Fonts</button>
-                </div>
-                
-                <div class="Header-section-circle-img-div mx-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/text-effects.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Text Effects</button>
-                </div>
-                <div class="Header-section-circle-img-div ms-2">
-                    <img class="rounded-circle circle-img-animation" src="imgs/backgrounds.png" alt="">
-                    <button class="trasparent-btn  text-weight-500">Backgrounds</button>
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>
