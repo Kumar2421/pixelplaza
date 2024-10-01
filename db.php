@@ -2,8 +2,8 @@
 // db.php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "pixelplaza";
+$password = "Senthil2421";
+$dbname = "if0_37333906_pixelplaza";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

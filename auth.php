@@ -26,7 +26,7 @@ function registerUser($conn) {
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
     // Check if the user already exists
-    $sql = "SELECT id FROM users WHERE email=?";
+    $sql = "SELECT id FROM pixelplaza WHERE email=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $email);
     $stmt->execute();
@@ -38,7 +38,7 @@ function registerUser($conn) {
     }
 
     // Insert new user
-    $sql = "INSERT INTO users (email, password) VALUES (?, ?)";
+    $sql = "INSERT INTO pixelplaza (email, password) VALUES (?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ss", $email, $hashed_password);
 
